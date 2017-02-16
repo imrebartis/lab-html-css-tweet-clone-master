@@ -1,0 +1,119 @@
+body {
+	background: rgb(244, 248, 249);
+	font: 20px "Helvetica";
+	margin:0;
+	padding:0;
+}
+
+main {
+	background: rgb(255, 255, 255);
+	border: 2px solid rgb(225, 232, 237);
+	border-radius: 8px;
+	padding: 2.1rem 3.5rem 0;
+	max-width: 900px;
+	margin: 3rem auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 1rem;
+}
+
+#Tweet-header {
+	display: block;
+    border: 2px solid rgb(85, 172, 238);
+    border-radius: 8px;
+    float:right;
+    font-weight: 600;
+    width: 18%;
+    text-align: center;
+}
+#Tweet-header a {
+	color: rgb(85, 172, 238);
+}
+#Tweet-header:hover {
+	background: rgb(85, 172, 238);
+	color: white;
+}
+#Tweet-header a:hover {
+	color: white;
+}
+
+#FollowButton {
+	margin: -1em;
+}
+#FollowButton p {
+	display: inline-block;
+	font-size: 26px;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+#FollowButton img {
+	width: 1.7rem;
+	border-radius: 5px;
+	vertical-align: middle;
+}
+
+#TweetAuthor-avatar {
+	float: left;
+	padding-right: 1rem;
+
+}
+
+#TweetAuthor-name {
+	font-weight: bold;
+	vertical-align: 30%;
+}
+
+#Tweet-text {
+	clear: both;
+	padding-top: 1rem;
+}
+
+#TweetAuthor-screenName {
+	color: rgb(104, 109, 129);	
+}
+
+#TweetAuthor-name, .Tweet-text {
+	color: rgb(0, 0, 0);
+}
+
+#TweetAuthor-verifiedBadge img {
+	width:1.7rem;
+}
+
+#TweetAuthor-avatar img {
+	width: auto;
+}
+
+#TweetAuthor-account-logo img {
+	width: .7rem;
+}
+
+#retweet img {
+	width: 1.3rem;
+}
+
+time {
+	color: rgb(101, 116, 127);
+}
+
+ul {
+	list-style-type: none;
+	margin-left: -2.2rem;
+	}
+
+ul li {
+	display: inline-block;
+	padding:0;
+}
+
+ul li:nth-child(even) {
+	padding-left: 1rem;
+}
+li a {
+	color: rgb(105, 120, 130);
+}

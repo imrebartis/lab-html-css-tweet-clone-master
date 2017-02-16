@@ -6,8 +6,46 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="tweet-clone.css">
   <title>HTML &amp; CSS | Ironhack PreWork |</title>
-</head>
-<body>
+  <main id="EmbeddedTweet-tweet">
 
+	<article id="Tweet-header"><a href="#">
+			<div id="FollowButton"><img alt="Account logo" src="img/twitter-logo.jpg"><p>Follow</p></div>
+    </a></article>
+    
+	<article id="TweetAuthor">
+	  <a id="TweetAuthor-link" href="#">
+	    <span id="TweetAuthor-avatar">
+	      <img id="Avatar" alt="Jack" src="img/profile-picture.jpg">
+	    </span>
+	     <div id="accountInfo-screenName">
+		    <div id="account-row">
+			    <span id="TweetAuthor-account-logo"><img alt="Account logo" src="img/account-logo.jpg"></span>
+			    <span id="TweetAuthor-name">jack</span>
+			    <span id="TweetAuthor-verifiedBadge"><img alt="Account logo" src="img/validated-account.jpg"></span>
+			</div>
+		    <span id="TweetAuthor-screenName">@jack</span>
+		</div>
+	  </a>
+	</article>
+
+	<article id="Tweet-body"> 
+	    <p id="Tweet-text">just setting up my twttr</p>
+	     <div id="Tweet-dateline">   
+			<p><time id="dt">9:50 PM - 21 Mar 2006</time></p>
+		    </div>
+		    <ul id="Tweet-actions">
+		      <li class="Tweet-action">
+				<a href="#"><img alt="reply" src="img/reply.jpg"></a></li>
+		       <li class="Tweet-action">
+				<a id="retweet" href="#"><img alt="retweet" src="img/retweet.jpg"></a></li>
+			   <li class="Tweet-action">
+				<p><a id="retweet-text" href="#">92,555</a></p></li>
+		       <li class="Tweet-action">
+				<a id="favorite" href="#"><img alt="favorite" src="img/favorite.jpg"></a></li>
+			   <li class="Tweet-action">
+				<p><a id="favorite-text" href="#">71,111</a></p></li>
+		    </ul>
+	 </article>
+ </main>
 </body>
 </html>
