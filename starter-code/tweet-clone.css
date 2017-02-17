@@ -117,3 +117,15 @@ ul li:nth-child(even) {
 li a {
 	color: rgb(105, 120, 130);
 }
+
+/* Media queries */
+
+@media (max-width: 810px) {
+
+	body {
+		min-width: 470px;
+	}
+	#Tweet-header {
+		min-width: 130px;
+	}
+}
